@@ -1,0 +1,113 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+body {padding-top:90px;}
+
+.container {
+	width:68%!important;
+
+}
+.notecard {
+	background-color: #fff;
+    border-radius: 5px;
+    padding-bottom:5px;
+}
+
+.notecard h3 {
+	margin-bottom: 5px;
+    margin-top: 0;
+    padding-right: 10px;
+}
+
+.notecard .edit-buttons {
+	display:none;
+}
+
+.notecard.hover .edit-buttons {
+	display:block;
+	padding-top:7px;
+}
+
+.edit-buttons {
+
+}
+
+.created-at {
+	clear:both;
+	color:#afafaf;
+}
+
+.new-post-body {
+	margin: 0 auto;
+    max-width: 750px;
+    min-width: 600px;
+    padding: 1px 20px 17px;
+}
+
+new-post-body-content {
+	width:90%;
+	margin:0 auto;
+}
+
+.login-block {
+background: #fff none repeat scroll 0 0;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2px 20px 23px 15px;
+    width: 45%;
+}
+
+.account_btns li {
+	padding-right:10px;
+}
+
+.helper-links {
+	text-align:center;
+	margin-top:20px;
+}
+
+.back-link {
+	margin-left:10px;
+}
+
+.post-title {
+	max-width:50%;
+}
+
+.post-content {
+	max-width:99%;
+	height:300px!important;
+	white-space: pre-wrap;
+}
+
+.post-cutter {
+	border-bottom: 2px solid #e8e8e8;
+    margin: 25px auto;
+    width: 100%;
+}
+
+.navbar-left {
+	margin-top:5px!important;
+}
+
+.new_post_button {
+	margin:0 auto;
+	width:90px;
+	margin-bottom:40px;
+}
+
